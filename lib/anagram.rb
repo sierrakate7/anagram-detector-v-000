@@ -10,3 +10,6 @@ def match(array_of_words)
       (@word.split("").sort) == (element.split("").sort)
     end
   end 
+
+ word_array.select do |word|
+      word.split("").sort == @word.split("").sort
